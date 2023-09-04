@@ -98,3 +98,10 @@ The above dataset has 9 variables. Those are:-
 10. The mean squared error of the model was also deduced which was about 10.50%
 
 ### Word Clouding for each review group
+1. A list of all the reviews for each overall rating was created and stored in 'review_text_for_overall' using 'groupby' function grouped on 'overall' feature.
+2. Next, the code starts by creating a list of review text objects.
+3. It then creates an empty string and appends the summary to it, which is done with the .join() method.
+4. The code then uses the text_process function to process each word in this string, which is done with the lambda x: text_process(x) function.
+5. The code takes the text of the review and converts it into a list of words, which are then joined together.
+6. A function to draw 'Wordcloud' was declared, which was used to plot 'Wordcloud' plot for each overall rating.
+
