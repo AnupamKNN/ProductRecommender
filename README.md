@@ -105,3 +105,17 @@ The above dataset has 9 variables. Those are:-
 5. The code takes the text of the review and converts it into a list of words, which are then joined together.
 6. A function to draw 'Wordcloud' was declared, which was used to plot 'Wordcloud' plot for each overall rating.
 
+![Wordcloud Plot 1](https://github.com/AnupamKNN/ProductRecommender/blob/main/wordcloud_1_1.png)
+
+![Wordcloud Plot 1](https://github.com/AnupamKNN/ProductRecommender/blob/main/wordcloud_2.png)
+
+![Wordcloud Plot 1](https://github.com/AnupamKNN/ProductRecommender/blob/main/wordcloud_3.png)
+
+![Wordcloud Plot 1](https://github.com/AnupamKNN/ProductRecommender/blob/main/wordcloud_4.png)
+
+![Wordcloud Plot 1](https://github.com/AnupamKNN/ProductRecommender/blob/main/wordcloud_5.png)
+
+### Applying KNN model to find out five nearest prodcuts:
+
+1. To find the 5 nearest neighbors, I am going to use NearestNeighbors algorithm.
+2. We have predicted the 5 products based on ratings by using KNN.
